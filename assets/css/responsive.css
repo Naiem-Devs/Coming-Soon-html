@@ -1,0 +1,159 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .design-blk.it-4 {
+        max-width: 530px;
+    }
+    
+    .design-blk.it-3 {
+        margin-right: -26px;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .design-blk.it-3 {
+        margin-right: auto;
+    }
+    .Wishlist-form {
+        margin: auto;
+    }
+    
+    img.Ellipse-img {
+        max-width: 700px;
+        left: 0;
+    }
+    
+    .Wishlist__content {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .design-blk {
+        max-width: 460px;
+        margin: 12px auto;
+    }
+    
+    .faq-content {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .Verb-page .design-blk {
+        max-width: 90%;
+    }
+    
+    .features__img {
+        max-width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+.features-area.v3 .features__img {
+    max-width: 100%;
+}
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .design-blk.it-3 {
+        margin-right: auto;
+    }
+    .Wishlist-form {
+        margin: auto;
+    }
+    
+    img.Ellipse-img {
+        max-width: 300px;
+        left: 0;
+    }
+    
+    .Wishlist__content {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .design-blk {
+        max-width: 300px;
+        margin: 12px auto;
+    }
+    
+    .faq-content {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .Wishlist__content h1 {
+        font-size: 36px;
+    }
+    
+    .Wishlist-area {
+        padding: 60px 0;
+    }
+    
+    .faq-area {
+        padding: 80px 0 50px;
+    }
+    
+    section.faq-area img.Ellipse-img {
+        top: 10%;
+    }
+    .Verb-page .design-blk {
+        max-width: 90%;
+    }
+    
+    .features__img {
+        max-width: 96%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .webBuilder__content h1,.webBuilder__content.v3 h1 {
+        font-size: 30px;
+    }
+
+.webBuilder__content.v3 label {font-size: 12px;}
+    
+    .webBuilder__content p {
+        font-size: 16px;
+    }
+    
+    .email__box {
+        flex-direction: column;
+    }
+    
+    .webBuilder-area {
+        padding: 50px 0;
+    }
+    
+    .email__box button {
+        height: 46px;
+    }
+    
+    .email__box input {
+        height: 50px;
+    }
+    
+    .sec__title h2 {
+        font-size: 28px;
+    }
+    
+    .sec__title p {
+        font-size: 16px;
+    }
+
+.sec__title {
+    margin-bottom: 60px;
+}
+
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
